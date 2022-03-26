@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{956A9EDB-2FE1-487B-BA5E-6087CC53CDC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{956A9EDB-2FE1-487B-BA5E-6087CC53CDC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956A9EDB-2FE1-487B-BA5E-6087CC53CDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956A9EDB-2FE1-487B-BA5E-6087CC53CDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956A9EDB-2FE1-487B-BA5E-6087CC53CDC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4053947-1883-412D-9E4B-AC42F6EB30FD}
+	EndGlobalSection
+EndGlobal
