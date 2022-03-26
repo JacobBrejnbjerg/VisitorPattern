@@ -10,5 +10,12 @@
         {
             visitor.VisitEmployee(this);
         }
+
+        public override string ToString()
+        {
+            return "Salary: " + Salary + "\r\n" +
+                   "Seniority: " + Seniority + "\r\n" +
+                   "VacationDays: " + VacationDays + "\r\n";
+        }
     }
 }
