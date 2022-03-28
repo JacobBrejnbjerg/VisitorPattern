@@ -8,6 +8,7 @@
 
         public void Accept(IVisitor visitor)
         {
+            // Call visitor function
             visitor.VisitEmployee(this);
         }
 

@@ -4,6 +4,7 @@
     {
         public void VisitEmployee(Employee employee)
         {
+            // Set the salary of the employee
             employee.Salary *= 1.08;
         }
     }

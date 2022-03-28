@@ -4,6 +4,7 @@
     {
         public void VisitEmployee(Employee employee)
         {
+            // Set vacation days to 20
             employee.VacationDays = 20;
         }
     }
