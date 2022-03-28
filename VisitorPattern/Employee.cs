@@ -18,12 +18,5 @@
                    "Seniority: " + Seniority + "\r\n" +
                    "VacationDays: " + VacationDays + "\r\n";
         }
-
-        // Implementerer Accept fra IElement
-        public void Accept(IVisitor visitor)
-        {
-            visitor.VisitEmployee(this);
-        }
-
     }
 }
