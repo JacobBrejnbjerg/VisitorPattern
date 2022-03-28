@@ -1,6 +1,6 @@
 ﻿namespace VisitorPattern
 {
-    public class Employee
+    public class Employee : IElement
     {
         public double Salary { get; set; }
         public int Seniority { get; set; }
@@ -18,5 +18,12 @@
                    "Seniority: " + Seniority + "\r\n" +
                    "VacationDays: " + VacationDays + "\r\n";
         }
+
+        // Implementerer Accept fra IElement
+        public void Accept(IVisitor visitor)
+        {
+            visitor.VisitEmployee(this);
+        }
+
     }
 }
